@@ -1,0 +1,14 @@
+Repository,Branch,Status,Action,Details
+control-tower,docs-phase-2-5-handoff,Merged,DELETE,PR #41 merged 2026-02-25
+control-tower,fix-bug-6-concurrency,Merged,DELETE,PR #40 merged 2026-02-25
+control-tower,phase-2.5-bug-fixes,Merged,DELETE,PR #21 merged 2026-02-25
+control-tower,codex/perform-deep-review-of-control-tower-repository,Merged,DELETE,PR #17 merged 2026-02-24
+control-tower,codex/conduct-overnight-review-of-workflows,Merged,DELETE,PR #16 merged 2026-02-24
+control-tower,copilot/fix-bug-in-project-plan,Open PR,KEEP,Open draft PR #48
+ai-cost-tracker,main,Default conflict,REVIEW,Dual default with master
+ai-cost-tracker,master,Default branch,KEEP,Current default
+ai-cost-tracker,claude/* (7 branches),Stale,REVIEW,No associated PRs found
+ai-cost-tracker,codex/* (7 branches),Stale,REVIEW,No associated PRs found
+kynee,codex/review-project-and-provide-recommendations,Stale,REVIEW,No PR found
+portfolio-management,copilot/start-project-as-per-plan,Stale,REVIEW,No PR found
+ai-powertools,main,Default conflict,REVIEW,Dual default with master

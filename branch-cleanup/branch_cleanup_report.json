@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "total_repos": 16,
+    "analyzed_repos": 5,
+    "total_branches_found": 30,
+    "branches_to_delete": 5,
+    "default_branch_conflicts": 2
+  },
+  "actions": [
+    {
+      "repo": "control-tower",
+      "current_branches": 7,
+      "default_branch": "main",
+      "safe_to_delete": [
+        {
+          "branch": "docs-phase-2-5-handoff",
+          "reason": "Merged in PR #41 on 2026-02-25",
+          "priority": "high"
+        },
+        {
+          "branch": "fix-bug-6-concurrency",
+          "reason": "Merged in PR #40 on 2026-02-25",
+          "priority": "high"
+        },
+        {
+          "branch": "phase-2.5-bug-fixes",
+          "reason": "Merged in PR #21 on 2026-02-25",
+          "priority": "high"
+        },
+        {
+          "branch": "codex/perform-deep-review-of-control-tower-repository",
+          "reason": "Merged in PR #17 on 2026-02-24",
+          "priority": "high"
+        },
+        {
+          "branch": "codex/conduct-overnight-review-of-workflows",
+          "reason": "Merged in PR #16 on 2026-02-24",
+          "priority": "high"
+        }
+      ],
+      "keep_for_now": [
+        {
+          "branch": "copilot/fix-bug-in-project-plan",
+          "reason": "Open PR #48 (draft)"
+        }
+      ],
+      "requires_review": [],
+      "default_branch_issue": false
+    },
+    {
+      "repo": "ai-cost-tracker",
+      "current_branches": 16,
+      "default_branch": "master",
+      "safe_to_delete": [],
+      "keep_for_now": [],
+      "requires_review": [
+        {
+          "issue": "dual_default_branches",
+          "branches": [
+            "main",
+            "master"
+          ],
+          "recommendation": "Choose one default (recommend 'main'), delete 'main' after merging any unique commits"
+        }
+      ],
+      "default_branch_issue": true
+    },
+    {
+      "repo": "kynee",
+      "current_branches": 2,
+      "default_branch": "main",
+      "safe_to_delete": [],
+      "keep_for_now": [],
+      "requires_review": [
+        {
+          "branch": "codex/review-project-and-provide-recommendations",
+          "reason": "No associated PR found - may be stale or manually created"
+        }
+      ],
+      "default_branch_issue": false
+    },
+    {
+      "repo": "portfolio-management",
+      "current_branches": 2,
+      "default_branch": "main",
+      "safe_to_delete": [],
+      "keep_for_now": [],
+      "requires_review": [
+        {
+          "branch": "copilot/start-project-as-per-plan",
+          "reason": "No associated PR found - may be stale or manually created"
+        }
+      ],
+      "default_branch_issue": false
+    },
+    {
+      "repo": "ai-powertools",
+      "current_branches": 3,
+      "default_branch": "master",
+      "safe_to_delete": [],
+      "keep_for_now": [],
+      "requires_review": [
+        {
+          "issue": "dual_default_branches",
+          "branches": [
+            "main",
+            "master"
+          ],
+          "recommendation": "Choose one default (recommend 'main'), delete 'main' after merging any unique commits"
+        }
+      ],
+      "default_branch_issue": true
+    }
+  ]
+}
