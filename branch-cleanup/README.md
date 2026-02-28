@@ -39,6 +39,7 @@ Before running ANY cleanup scripts, you MUST:
 ### Documentation
 - `branch_management_guide.md` - Long-term prevention strategy
 - `CROSS_MACHINE_EXECUTION_RUNBOOK.md` - Executed actions + repeatable process for other dev machines
+- `MAC_DEV_MACHINE_SYNC_20260228.md` - Final Mac dev machine sync + no-data-loss execution record
 - `AI_POWERTOOLS_RECONCILIATION.md` - Detailed guide for resolving ai-powertools main/master divergence
 
 ## Execution Summary

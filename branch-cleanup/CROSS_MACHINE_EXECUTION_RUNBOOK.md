@@ -156,3 +156,18 @@ gh api -X DELETE repos/zebadee2kk/REPO/git/refs/heads/BRANCH
 2. Resolve `ai-powertools` `main` vs `master` divergence:
    - Merge/cherry-pick unique commits, then choose one default branch.
 3. Optionally add a weekly branch hygiene check in GitHub Actions.
+
+---
+
+## 6) Mac Dev Machine Finalization (2026-02-28)
+
+Mac local synchronization and no-data-loss finalization is documented in:
+
+- `MAC_DEV_MACHINE_SYNC_20260228.md`
+
+This includes:
+- local repo discovery on Mac
+- safety audit + fetch/prune + fast-forward pull execution
+- temporary backup/stash protections
+- final active branch setup (`zebra-ecosystem` on `wip/restore-stash-20260228`)
+- post-verification cleanup of temporary safety artifacts
